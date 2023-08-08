@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css2?family=pop );
+
+ * {
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth ;
+  box-sizing:border-box ;
+ }
+body {
+  font-family: "poppins";
+}
+
+ .navigation{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+ }
+  .mainHeader {
+    font-size: 20px;
+    display: flex;
+    font: size 75px;
+    font: size 25px;
+    color: rgb(15,15,14);
+    padding: 40px;
+  }
+
+  .listitems {
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+  }
+
+   .navigation{
+     text-decoration: none;
+     color:red;
+      
+   }  
+
+
+
+  .primarybutton {
+    background-color:rgb (238,90,78);
+    color:blue; 
+    padding: 10px 20px 10px 20px; 
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+    .primarybutton:hover{
+      cursor: pointer;
+      color:crimson;
+      border:1px solid rgb(238,90,78);
+      background-color: yellow;
+    }
+    /* navarbar ended here */
+
+    /* Hero section started here */
+
+      .home{
+      border: 1px solid green;
+      display:flex;
+      justify-content: space-between;
+    
+    }
+      
+   img {
+    height: 300px;  
+    width: 300px;
+    padding:40px;
+    
+
+   }
+   
+   .About-Me{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    
+
+
+   }
+   .Text{
+      width: 50%;
+      padding:20px;
+      font-size: 40px;
+      margin-left: 80px;
+      text-align: justify;
+      padding-left: 20px;
+      
+   }
+   .Detail{
+       margin: 20px 8px 20px ;
+       font-size: 50px;
+   }
+
+   /* services styling starts here */
+.service{
+  padding: 50px 0;
+}
+
+.service .serviceheader{
+  margin: 50px auto;
+}
+   .cards{
+    display:flex;
+    justify-content: space-around;
+   }
+
+  .card1{
+    gap: 1rem;
+    height: fit-content;
+    width:fit-content;
+    border-radius: 20px;
+    font-size: 50px;
+    background-color: red;
+    justify-content: space-between;  
+    
+  }
+
+  .card2{
+    gap: 1rem;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 50px;
+    background-color: red;
+    justify-content: space-between;    
+  }
+  
+  .card3{
+    gap:1rem;
+    height:fixed-content;
+    width:fixed-content;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: red;
+    justify-content: space-between;
+    
+  }
+
+  .card4{
+    gap:1rem;
+    height:fixed-content;
+    width:fixed-content;
+    font-size: 50px;
+    border-radius:20px;
+    background-color: red;
+    justify-content: space-between;
+    
+    
+    
+  }
+
+  .service{
+    text-align: center;
+  }
+    .pic1{
+       width: 300px;
+       height: 300px;
+       border-radius: 1.5rem;
+
+
+    }
+    .CTA{
+      display:flex;
+      justify-content: center;
+    }
+
+
+    button{
+        padding: 10px;
+        margin:10px;
+    }
+
+    /* contact styling starts here */
+   .CONTACTUS{
+    font-size: 40px;
+      background-color: red;
+      text-align: center;
+      height:250px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+
+.Icons{
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+
