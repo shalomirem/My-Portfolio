@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=pop );
+@import url(https://fonts.googleapis.com/css2?family=pop);
 
  * {
   margin:0;
@@ -17,10 +17,10 @@ body {
     height: 100px;
  }
   .mainHeader {
-    font-size: 20px;
-    display: flex;
-    font: size 75px;
-    font: size 25px;
+    font-size:10px;
+    display:flex;
+    font-size: 15px;
+    font-size:15px;
     color: rgb(15,15,14);
     padding: 40px;
   }
@@ -87,7 +87,7 @@ body {
    .Text{
       width: 50%;
       padding:20px;
-      font-size: 40px;
+      font-size: 30px;
       margin-left: 80px;
       text-align: justify;
       padding-left: 20px;
